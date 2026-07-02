@@ -1,0 +1,24 @@
+{
+  "name": "Satellite Cloud Clear AI",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "forwardPorts": [8000, 8501],
+  "portsAttributes": {
+    "8000": {
+      "label": "FastAPI Backend",
+      "onAutoForward": "openBrowser"
+    },
+    "8501": {
+      "label": "Streamlit Frontend",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postCreateCommand": "pip install -r requirements.txt && pip install streamlit httpx python-multipart",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  }
+}
