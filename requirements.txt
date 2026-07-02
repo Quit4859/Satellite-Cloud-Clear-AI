@@ -1,49 +1,67 @@
-# Core ML/DL
-torch>=2.0.0
-torchvision>=0.15.0
-transformers>=4.30.0
-huggingface-hub>=0.15.0
+# =============================================================================
+# Satellite Cloud Clear AI - Complete Dependencies
+# Python 3.10 Compatible
+# =============================================================================
+
+# PyTorch ecosystem
+torch==2.2.0
+torchvision==0.17.0
+torchaudio==2.2.0
 
 # Geospatial
-rasterio>=1.3.0
-earthengine-api>=0.1.370
+rasterio==1.3.9
+GDAL==3.6.2
+geemap==0.32.0
 
-# Image Processing
-opencv-python>=4.8.0
-Pillow>=10.0.0
-scikit-image>=0.21.0
+# Image processing
+opencv-python==4.9.0.80
+albumentations==1.3.1
+scikit-image==0.22.0
+Pillow==10.2.0
 
-# Web Framework
-fastapi>=0.104.0
-uvicorn[standard]>=0.24.0
-python-multipart>=0.0.6
-pydantic>=2.0.0
+# Data processing
+numpy==1.26.4
+pandas==2.2.0
+matplotlib==3.8.2
+
+# Web framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+pydantic==2.6.0
+starlette==0.35.1
 
 # Frontend
-streamlit>=1.28.0
+streamlit==1.31.0
 
-# Data Processing
-numpy>=1.24.0
-pandas>=2.0.0
-geopandas>=0.14.0
-shapely>=2.0.0
+# Google Earth Engine
+earthengine-api==0.1.390
+
+# Machine learning
+transformers==4.37.2
+huggingface-hub==0.20.3
+timm==0.9.12
 
 # Utilities
-python-dotenv>=1.0.0
-loguru>=0.7.0
-tqdm>=4.66.0
-requests>=2.31.0
+python-dotenv==1.0.0
+loguru==0.7.2
+tqdm==4.66.2
+requests==2.31.0
+aiohttp==3.9.3
+pyyaml==6.0.1
+click==8.1.7
 
 # Testing
-pytest>=7.4.0
-pytest-cov>=4.1.0
-pytest-asyncio>=0.21.0
+pytest==8.0.0
+pytest-cov==4.1.0
+pytest-asyncio==0.23.3
 
-# Code Quality
-black>=23.0.0
-ruff>=0.1.0
-mypy>=1.5.0
+# Code quality
+black==24.1.1
+ruff==0.1.14
+mypy==1.8.0
 
 # Jupyter
-jupyter>=1.0.0
-ipykernel>=6.25.0
+jupyter==1.0.0
+ipykernel==6.29.0
+ipywidgets==8.1.2
