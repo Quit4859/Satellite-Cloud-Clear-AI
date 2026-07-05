@@ -16,5 +16,4 @@ outputs/
 .vscode/
 *.log
 
-# Dataset (large files)
-dataset/
+
