@@ -17,7 +17,7 @@ runnable-on-your-PC Python package.
 
 | Input (Cloudy) | Output (Cloud-Free) |
 |:--------------:|:-------------------:|
-| ![Cloudy Input](01_input%20(1).png) | ![Cloud-Free Output](14_final_output.png) |
+| ![Cloudy Input](src/images/01_input%20(1).png) | ![Cloud-Free Output](src/images/14_final_output.png) |
 
 The left image shows the original Sentinel-2 scene with clouds, thin cirrus,
 and cloud shadows. The right image shows the result after processing — clouds
