@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Pipeline outputs
+outputs/
+
+# OS / editor cruft
+.DS_Store
+.idea/
+.vscode/
+*.log

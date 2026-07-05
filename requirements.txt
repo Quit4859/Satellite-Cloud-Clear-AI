@@ -1,0 +1,23 @@
+# Core dependencies (required)
+rasterio
+numpy
+opencv-python
+matplotlib
+scikit-image
+scipy
+s2cloudless
+ipywidgets
+tqdm
+shapely
+pystac-client
+planetary-computer
+
+# Optional -- AI inpainting fallback for the (usually tiny) handful of
+# pixels the temporal stack itself could not fill. The pipeline works
+# fine without these two; it just skips that one fallback step.
+# Installed with --no-deps by install_dependencies.py to avoid dependency
+# conflicts with numpy/scipy above -- install them manually the same way
+# if you use `pip install -r requirements.txt` directly:
+#   pip install --no-deps torch simple-lama-inpainting
+torch
+simple-lama-inpainting
