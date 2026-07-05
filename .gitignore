@@ -15,3 +15,6 @@ outputs/
 .idea/
 .vscode/
 *.log
+
+# Dataset (large files)
+dataset/
